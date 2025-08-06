@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Mini Site Pessoal - [Seu Nome]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-principal">Olá, eu sou [Gustavo]</h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim" class="intro-section">
+            <h2>Sobre Mim</h2>
+            <img src="minhafoto.jpg" alt="Foto de [Gustavo]" width="200" class="foto-perfil">
+            <p>Este é o seu mini site pessoal. Aqui você encontrara um pouco sobre mim e meus interesse.</p>
+            <hr>
+            <p>Estou apresentando <strong>HTML</strong> e estou animado(a) para criar meus projetos!</p>
+            <p class="paragrafo-destaque">Este paragrafo é um destaque especial para mostrar as novas funcionalidades
+                que estou aprendendo!</p>
+            <div style="clear: both;"></div>
+        </section>
+
+        <section class="link-e-lista">
+            <h2>Links Interesses</h2>
+            <p>Visite meu <a href="https://github.com/amelio-gusta" target="_blank">GitHub</a></p>
+            <p>Acompanhe meu progresso no <a href="htpps://linkedin.com/in/seuperfil" target="_blank">Linkedin</a>.</p>
+
+            <h2>Meus Hobies</h2>
+            <ul>
+                <li>Leitura (romance e fantasia)</li>
+                <li>jogar jogos (Volei entre outros)</li>
+                <li>Cozinhar novas receitas</li>
+                <li>Assistir series</li>
+            </ul>
+
+            <h2>Filmes Favoritos</h2>
+            <ol>
+                <li>Dexter</li>
+                <li>Vermelho branco sangue azul</li>
+                <li>royal youngs</li>
+                <li>Olimpo</li>
+            </ol>
+        </section>
+
+        <section id="habilidades">
+            <h2>Minhas Habilidades</h2>
+            <table>
+                <thead>
+                    <rd>
+                        <th>Área</th>
+                        <th>Nivel</th>
+                        <th>Interesse</th>
+                    </rd>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Basico/Intermediario</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Iniciante</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>Banco de Dados</td>
+                        <td>Iniciante</td>
+                        <td>Medio</td>
+                    </tr>
+                    <tr>
+                        <td>Back-end (Node.js)</td>
+                        <td>Introdução</td>
+                        <td>Alto</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="interesses">
+            <h2>Meus Interesses</h2>
+            <div class="interesses-container">
+                <div class="interesse-item">
+                    <h3>Tecnologia e programação</h3>
+                    <p>Adoro aprender sobre novas linguagens de programação, framework e o futuro da tecnologia</p>
+                </div>
+                <div class="interesses-item destaque-interesse">
+                    <h3>Musica e Artes</h3>
+                    <p>Gosto de escutar e ouvir diversos generos musicais, alem de apreciar outras formas de arte.</p>
+                </div>
+                <div class="interesse-item">
+                    <h3>Viagens e Culturas<h3>
+                            <p>Explorar novos lugares, conhecer diferentes e provar comidas tipicas é uma paixao.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <select id="asssunto" name="assunto">
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvida">duvida</option>
+                        <option value="segestao">sugestao</option>
+                        <option value="oportunidade">Oportunidade de trabalho</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="6"
+                        placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Gustavo]. Todos os direitos reservados.</p>
+        <p>Desenvolvido com |❤😍 e muito aprendizado de HTML e CSS!</p>
+    </footer>
+</body>
+
+</html>
